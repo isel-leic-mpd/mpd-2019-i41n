@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="259684f0-4fe5-4e98-8f61-c0d7e5fa26e4" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1428682668">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="637" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="637" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/weather/WeatherWebApiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/util/Queries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/util/WeatherPredicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../PFC/61 gamelog/PS-1718v-LI61D-LI61N-41482" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PFC/62 EmployeeBox/Rapper" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PFC/62 EmployeeBox/rapper" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PFC/63-OSDA/OSDA-src/OSDA-plugin-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PFC/63-OSDA/OSDA-src/OSDA-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../PFC/70-surf/codigo fonte/App Android" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G01/LI41D-G01" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G03" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G04/LI41D-G04" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G05" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G06/LI41D-G06" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G06/movapi" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G07/LI41D-G07" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G08/github" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G09/LI41D-G09" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G10/LI41D-G10" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G11" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G12/LI41D-G12" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G14/LI41D-G14" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/LI41D-G15" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/alunos/ep-especial/S39642/trab3/1718v-LI41N-G11-ginEE" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/aulas" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/testes/teste2app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/testes/testeEpEspecial" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../pg4 mpd - 2017-2018 2º sem/trabs/movapi" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../MyProjects/68-jayield-asm-builders/repo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../MyProjects/75-web-flux/web-app" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../MyProjects/80-stream-cache-and-replay/repo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../../MyProjects/84-AsyncFileRw/asyncFileRw" value="PREVIEW" />
+        <entry key="C:/tmp/java/MPD-1718v-LI41N" value="PREVIEW" />
+        <entry key="C:/tmp/java/app40-nio-write-file" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/util/AbstractRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/WeatherInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/util/Queries.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/util/WeatherPredicate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/isel/mpd/weather/WeatherWebApiTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aula04-queries" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aula04-queries" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.isel.mpd.util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.WeatherWebApiTest">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in aula04-queries" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula04-queries" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherWebApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula04-queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isel.mpd.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.isel.mpd.weather" />
+      <option name="MAIN_CLASS_NAME" value="org.isel.mpd.weather.WeatherWebApiTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula04-queries" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isel.mpd.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.isel.mpd.weather" />
+      <option name="MAIN_CLASS_NAME" value="org.isel.mpd.weather.WeatherWebApiTest" />
+      <option name="METHOD_NAME" value="pastWeatherNumberOfSunnyDaysInFeb2019" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in aula04-queries" />
+      <item itemvalue="JUnit.WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" />
+      <item itemvalue="JUnit.WeatherWebApiTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WeatherWebApiTest" />
+        <item itemvalue="JUnit.WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" />
+        <item itemvalue="JUnit.All in aula04-queries" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="259684f0-4fe5-4e98-8f61-c0d7e5fa26e4" name="Default Changelist" comment="" />
+      <created>1551218634426</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551218634426</updated>
+      <workItem from="1551218636272" duration="2703000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="WeatherWebApiTest_pastWeatherNumberOfSunnyDaysInFeb2019 - 2019.02.26 at 22h 12m 45s.xml">
+      <configuration name="WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeatherNumberOfSunnyDaysInFeb2019 - 2019.02.26 at 22h 17m 43s.xml">
+      <configuration name="WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeatherNumberOfSunnyDaysInFeb2019 - 2019.02.26 at 22h 20m 26s.xml">
+      <configuration name="WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeatherNumberOfSunnyDaysInFeb2019 - 2019.02.26 at 22h 20m 47s.xml">
+      <configuration name="WeatherWebApiTest.pastWeatherNumberOfSunnyDaysInFeb2019" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 23m 23s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 23m 55s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 24m 08s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 34m 20s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 35m 05s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 22h 46m 30s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2703000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1384" height="741" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3580247" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32881355" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32881355" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/util/AbstractRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/WeatherInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/WeatherWebApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/util/WeatherPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/weather/WeatherWebApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/util/Queries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>aula04-queries</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

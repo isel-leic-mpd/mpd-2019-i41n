@@ -9,35 +9,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/aula03_strategy_and_injection$org_isel_mpd_in_aula03_strategy_and_injection.ic" NAME="org.isel.mpd in aula03-strategy-and-injection Coverage Results" MODIFIED="1551213673041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.isel.mpd.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/aula03_strategy_and_injection$WeatherWebApiTest.ic" NAME="WeatherWebApiTest Coverage Results" MODIFIED="1551218305843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.isel.mpd.org.isel.mpd.util.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="89" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1004503956">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="933-date-2019-02-01-enddate-2019-02-28" value="2" />
+          <entry key="ashx-query-Oporto-format-tab-key-10a7e54b547c4c7c870162131192" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="2" />
+          <entry key="java" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="10" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="42" />
+          <entry key="java" value="655" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="42" />
+          <entry key="JAVA" value="655" />
         </counts>
       </usages-collector>
     </session>
@@ -45,19 +61,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="22" column="37" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="37" />
+            <state relative-caret-position="154">
+              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/WeatherWebApiTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/weather/WeatherWebApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="572">
+              <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +81,47 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/MockRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/HttpRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/AbstractRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -107,7 +163,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/LocationInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/WeatherWebApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/past-weather.ashx-q-37.017--7.933-date-2019-02-01-enddate-2019-02-28" />
         <option value="$PROJECT_DIR$/src/test/java/org/isel/mpd/WeatherWebApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/MockRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/search.ashx-query-Oporto-format-tab-key-10a7e54b547c4c7c870162131192" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/org/isel/mpd/util/MockRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/AbstractRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/HttpRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/MockRequest.java" />
       </list>
     </option>
   </component>
@@ -116,6 +185,12 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
@@ -128,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -139,47 +215,31 @@
             <path>
               <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
               <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
               <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
               <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mpd" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aula03-strategy-and-injection" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aula03-strategy-and-injection" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="JUnit5.2" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,10 +250,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.isel.mpd.weather.org.isel.mpd.util" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.isel.mpd" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019">
+  <component name="RunManager" selected="JUnit.org.isel.mpd.weather in aula03-strategy-and-injection">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -226,7 +294,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.isel.mpd.*" />
+          <option name="PATTERN" value="org.isel.mpd.org.isel.mpd.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,17 +308,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeatherWebApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula03-strategy-and-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.isel.mpd.*" />
+          <option name="PATTERN" value="org.isel.mpd.org.isel.mpd.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.isel.mpd" />
       <option name="MAIN_CLASS_NAME" value="org.isel.mpd.WeatherWebApiTest" />
-      <option name="METHOD_NAME" value="pastWeatherMaxTempretureOnFeb2019" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherWebApiTest.pastWeather" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula03-strategy-and-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isel.mpd.org.isel.mpd.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.isel.mpd" />
+      <option name="MAIN_CLASS_NAME" value="org.isel.mpd.WeatherWebApiTest" />
+      <option name="METHOD_NAME" value="pastWeather" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -258,6 +341,36 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.isel.mpd in aula03-strategy-and-injection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula03-strategy-and-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isel.mpd.org.isel.mpd.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.isel.mpd" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.isel.mpd.weather in aula03-strategy-and-injection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aula03-strategy-and-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.isel.mpd.weather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.isel.mpd.weather" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -320,11 +433,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019" />
+      <item itemvalue="JUnit.WeatherWebApiTest" />
+      <item itemvalue="JUnit.org.isel.mpd in aula03-strategy-and-injection" />
+      <item itemvalue="JUnit.WeatherWebApiTest.pastWeather" />
+      <item itemvalue="JUnit.org.isel.mpd.weather in aula03-strategy-and-injection" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019" />
+        <item itemvalue="JUnit.org.isel.mpd.weather in aula03-strategy-and-injection" />
+        <item itemvalue="JUnit.WeatherWebApiTest" />
+        <item itemvalue="JUnit.WeatherWebApiTest.pastWeather" />
+        <item itemvalue="JUnit.org.isel.mpd in aula03-strategy-and-injection" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -338,32 +457,56 @@
       <updated>1551204691923</updated>
       <workItem from="1551204693687" duration="65000" />
       <workItem from="1551204772961" duration="319000" />
+      <workItem from="1551212071034" duration="6078000" />
+      <workItem from="1551218899237" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeatherWebApiTest_pastWeatherMaxTempretureOnFeb2019 - 2019.02.26 at 18h 16m 39s.xml">
-      <configuration name="WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019" configurationId="JUnit" />
+    <history-entry file="org_isel_mpd_in_aula03-strategy-and-injection - 2019.02.26 at 21h 05m 39s.xml">
+      <configuration name="org.isel.mpd in aula03-strategy-and-injection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeatherWebApiTest_pastWeatherMaxTempretureOnFeb2019 - 2019.02.26 at 18h 17m 01s.xml">
-      <configuration name="WeatherWebApiTest.pastWeatherMaxTempretureOnFeb2019" configurationId="JUnit" />
+    <history-entry file="WeatherWebApiTest_pastWeather - 2019.02.26 at 21h 14m 58s.xml">
+      <configuration name="WeatherWebApiTest.pastWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeather - 2019.02.26 at 21h 15m 48s.xml">
+      <configuration name="WeatherWebApiTest.pastWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeather - 2019.02.26 at 21h 16m 29s.xml">
+      <configuration name="WeatherWebApiTest.pastWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest_pastWeather - 2019.02.26 at 21h 18m 25s.xml">
+      <configuration name="WeatherWebApiTest.pastWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 21h 20m 10s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 21h 21m 29s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 21h 23m 11s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WeatherWebApiTest - 2019.02.26 at 21h 59m 50s.xml">
+      <configuration name="WeatherWebApiTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="org_isel_mpd_weather_in_aula03-strategy-and-injection - 2019.02.26 at 22h 00m 40s.xml">
+      <configuration name="org.isel.mpd.weather in aula03-strategy-and-injection" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384000" />
+    <option name="totallyTimeSpent" value="7075000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1298" height="997" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1042" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.254886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23868313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32978722" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34067798" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,11 +514,13 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32881355" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.4949495" weight="0.32921812" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.5050505" side_tool="true" weight="0.32921812" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,20 +533,78 @@
     <entry file="file://$PROJECT_DIR$/aula03-strategy-and-injection.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/App.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/past-weather.ashx-q-37.017--7.933-date-2019-02-01-enddate-2019-02-28">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/WeatherWebApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="22" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/WeatherWebApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/search.ashx-query-Oporto-format-tab-key-10a7e54b547c4c7c870162131192">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="64">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/LocationInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/isel/mpd/weather/WeatherWebApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/MockRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/isel/mpd/weather/org/isel/mpd/util/AbstractRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
         </state>
       </provider>
     </entry>

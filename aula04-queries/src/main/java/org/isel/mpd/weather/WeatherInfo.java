@@ -1,4 +1,4 @@
-package org.isel.mpd;
+package org.isel.mpd.weather;
 
 import java.time.LocalDate;
 
@@ -31,5 +31,21 @@ public class WeatherInfo {
             ", precipMM=" + precipMM +
             ", desc='" + desc + '\'' +
             '}';
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public int getTempC() {
+        return tempC;
+    }
+
+    public double getPrecipMM() {
+        return precipMM;
+    }
+
+    public String getDesc() {
+        return desc;
     }
 }

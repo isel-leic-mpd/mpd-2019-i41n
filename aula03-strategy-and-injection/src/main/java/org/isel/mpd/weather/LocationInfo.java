@@ -1,4 +1,4 @@
-package org.isel.mpd;
+package org.isel.mpd.weather;
 
 public class LocationInfo {
     private final String country;
@@ -11,6 +11,22 @@ public class LocationInfo {
         this.region = region;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getRegion() {
+        return region;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
     }
 
     @Override

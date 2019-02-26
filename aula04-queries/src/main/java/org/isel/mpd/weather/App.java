@@ -1,11 +1,8 @@
-package org.isel.mpd;
+package org.isel.mpd.weather;
 
-import java.io.BufferedReader;
+import org.isel.mpd.util.HttpRequest;
+
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.time.LocalDate;
 import java.util.List;
 
 import static java.time.LocalDate.parse;
@@ -13,7 +10,7 @@ import static java.time.LocalDate.parse;
 public class App {
 
     public static void main(String[] args) throws IOException {
-        WeatherWebApi webApi = new WeatherWebApi();
+        WeatherWebApi webApi = new WeatherWebApi(new HttpRequest());
         /*
          * Get past weather at Lisbon between 2019-02-01 and 2019-02-10
          */
