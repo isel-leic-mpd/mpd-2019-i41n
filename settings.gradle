@@ -1,0 +1,4 @@
+// To declare projects as part of a multi-project build use the 'include' method
+include 'aula04-queries'
+
+rootProject.name = 'mpd-2019-aulas'

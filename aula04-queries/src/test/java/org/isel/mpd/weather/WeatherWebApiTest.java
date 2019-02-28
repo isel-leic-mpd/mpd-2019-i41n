@@ -1,17 +1,20 @@
 package org.isel.mpd.weather;
-import org.isel.mpd.util.MockRequest;
-import org.isel.mpd.util.Queries;
-import org.isel.mpd.util.WeatherPredicate;
-import org.junit.jupiter.api.Test;
-import java.util.List;
-import static java.time.LocalDate.parse;
-import static org.isel.mpd.util.Queries.filterWeather;
-import static org.junit.jupiter.api.Assertions.*;
 
-class WeatherWebApiTest {
+import junit.framework.Assert;
+import org.isel.mpd.util.MockRequest;
+import org.junit.Test;
+
+import java.util.List;
+
+import static java.time.LocalDate.parse;
+import static junit.framework.Assert.*;
+import static org.isel.mpd.util.Queries.filterWeather;
+
+
+public class WeatherWebApiTest {
 
     @Test
-    void pastWeatherNumberOfSunnyDaysInFeb2019() {
+    public void pastWeatherNumberOfSunnyDaysInFeb2019() {
         List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
         // assertEquals(8, Queries.filterByDesc(infos, "Sunny").size());
@@ -27,7 +30,7 @@ class WeatherWebApiTest {
     }
 
     @Test
-    void pastWeatherNumberOfRainnnyDaysInFeb2019() {
+    public void pastWeatherNumberOfRainnnyDaysInFeb2019() {
         List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
         // assertEquals(2, Queries.filterByDesc(infos, "Light rain shower").size());
@@ -36,7 +39,7 @@ class WeatherWebApiTest {
     }
 
     @Test
-    void pastWeather() {
+    public void pastWeather() {
         List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
 
@@ -51,7 +54,7 @@ class WeatherWebApiTest {
     }
 
     @Test
-    void search() {
+    public void search() {
         List<LocationInfo> infos = new WeatherWebApi(new MockRequest())
                 .search("Oporto");
         assertNotNull(infos);
