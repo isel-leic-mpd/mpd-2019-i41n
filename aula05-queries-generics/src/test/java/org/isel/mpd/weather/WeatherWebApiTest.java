@@ -1,52 +1,23 @@
 package org.isel.mpd.weather;
 
-import junit.framework.Assert;
-import org.isel.mpd.util.MockRequest;
+import org.isel.mpd.util.req.MockRequest;
 import org.junit.Test;
 
-import java.util.List;
+import java.util.Iterator;
 
 import static java.time.LocalDate.parse;
 import static junit.framework.Assert.*;
-import static org.isel.mpd.util.Queries.filterWeather;
 
 
 public class WeatherWebApiTest {
-
-    @Test
-    public void pastWeatherNumberOfSunnyDaysInFeb2019() {
-        List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
-                .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
-        // assertEquals(8, Queries.filterByDesc(infos, "Sunny").size());
-        /*
-        List<WeatherInfo> res = Queries.filterWeather(infos, new WeatherPredicate() {
-            @Override
-            public boolean test(WeatherInfo wi) {
-                return wi.getDesc().equals("Sunny");
-            }
-        });
-        */
-        assertEquals(8, filterWeather(infos, wi -> wi.getDesc().equals("Sunny")).size());
-    }
-
-    @Test
-    public void pastWeatherNumberOfRainnnyDaysInFeb2019() {
-        List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
-                .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
-        // assertEquals(2, Queries.filterByDesc(infos, "Light rain shower").size());
-        assertEquals(2, filterWeather(infos, wi -> wi.getDesc().equals("Light rain shower")).size());
-
-    }
-
     @Test
     public void pastWeather() {
-        List<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
+        Iterable<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
-
+        Iterator<WeatherInfo> iter = infos.iterator();
         assertNotNull(infos);
-        assertFalse(infos.isEmpty());
-        assertTrue(infos.size() > 0);
-        WeatherInfo wi = infos.get(0);
+        assertTrue(iter.hasNext());
+        WeatherInfo wi = iter.next();
         assertEquals(parse("2019-02-01"), wi.date);
         assertEquals(14, wi.tempC);
         assertEquals(13.8, wi.precipMM);
@@ -55,16 +26,16 @@ public class WeatherWebApiTest {
 
     @Test
     public void search() {
-        List<LocationInfo> infos = new WeatherWebApi(new MockRequest())
+        Iterable<LocationInfo> infos = new WeatherWebApi(new MockRequest())
                 .search("Oporto");
+        Iterator<LocationInfo> iter = infos.iterator();
         assertNotNull(infos);
-        assertFalse(infos.isEmpty());
-        assertTrue(infos.size() > 0);
-        LocationInfo li = infos.get(1);
-        assertEquals(li.getCountry(), "Portugal");
-        assertEquals(li.getRegion(), "Porto");
-        assertEquals(li.getLatitude(), 41.15);
-        assertEquals(li.getLongitude(), -8.617);
+        assertTrue(iter.hasNext());
+        LocationInfo li = iter.next();
+        assertEquals(li.getCountry(), "Spain");
+        assertEquals(li.getRegion(), "Galicia");
+        assertEquals(li.getLatitude(), 42.383);
+        assertEquals(li.getLongitude(), -7.100);
     }
 
 }

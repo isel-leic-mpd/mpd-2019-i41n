@@ -1,4 +1,4 @@
-package org.isel.mpd.util;
+package org.isel.mpd.util.req;
 
 import java.io.IOException;
 import java.io.InputStream;

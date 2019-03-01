@@ -1,4 +1,4 @@
-package org.isel.mpd.util;
+package org.isel.mpd.util.queries;
 
 import org.isel.mpd.weather.WeatherInfo;
 

@@ -1,11 +1,11 @@
-package org.isel.mpd.util;
+package org.isel.mpd.util.queries;
 
 import org.isel.mpd.weather.WeatherInfo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class Queries {
+public class NaifQueries {
 
     /**
      * V1 -- hard coded
@@ -34,7 +34,7 @@ public class Queries {
     /**
      * V3 -- Behavior Parametrization
      */
-    public static List<WeatherInfo> filterWeather(List<WeatherInfo> infos, WeatherPredicate pred){
+    public static List<WeatherInfo> filterWeather(Iterable<WeatherInfo> infos, WeatherPredicate pred){
         List<WeatherInfo> res = new ArrayList<>();
         for (WeatherInfo wi : infos) {
             if(pred.test(wi))
