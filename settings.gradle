@@ -2,5 +2,6 @@
 
 // include 'aula04-queries'
 include 'aula05-queries-generics'
+include 'aula06-queries-lazy'
 
 rootProject.name = 'mpd-2019-aulas'
