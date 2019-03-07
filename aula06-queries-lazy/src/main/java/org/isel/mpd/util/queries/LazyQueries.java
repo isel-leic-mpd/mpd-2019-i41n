@@ -1,6 +1,7 @@
 package org.isel.mpd.util.queries;
 
 import org.isel.mpd.util.iterators.IteratorFilter;
+import org.isel.mpd.util.iterators.IteratorLimit;
 import org.isel.mpd.util.iterators.IteratorMap;
 
 import java.util.Iterator;
@@ -25,11 +26,18 @@ public class LazyQueries {
     }
 
     public static <T> Iterable<T> limit(Iterable<T> src, int nr){
-        throw new UnsupportedOperationException("To DO: implement missing limit() operation!");
+        return () -> new IteratorLimit<>(src,nr);
     }
 
     public static <T, R> Iterable<R> map(Iterable<T> src, Function<T, R> mapper){
         return () -> new IteratorMap(src, mapper);
+    }
+
+    public static <T> Iterable<T> generate(Supplier<T> next){
+        return () -> new Iterator<T>() {
+            public boolean hasNext() { return true; }
+            public T next() { return next.get(); }
+        };
     }
 
     public static <T> Iterable<T> iterate(T seed, Function<T, T> next){
@@ -68,4 +76,14 @@ public class LazyQueries {
         return iter.hasNext() ? iter.next() : null;
     }
 
+    public static <T extends Comparable<T>> T max(Iterable<T> src) {
+        Iterator<T> iter = src.iterator();
+        T res = iter.next();
+        while(iter.hasNext()) {
+            T curr = iter.next();
+            if(curr.compareTo(res) > 0)
+                res = curr;
+        }
+        return res;
+    }
 }

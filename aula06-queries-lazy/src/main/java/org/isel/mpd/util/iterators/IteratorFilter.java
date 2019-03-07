@@ -3,18 +3,40 @@ package org.isel.mpd.util.iterators;
 import org.isel.mpd.util.queries.Predicate;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
-public class IteratorFilter<T>  implements Iterator<T> {
+public class IteratorFilter<T> implements Iterator<T> {
+    private T next = null;
+
+    private Iterator<T> src;
+    private Predicate<T> p;
 
     public IteratorFilter(Iterable<T> iter, Predicate<T> pred) {
+        this.src = iter.iterator();
+        this.p = pred;
     }
+
     @Override
     public boolean hasNext() {
-        throw new UnsupportedOperationException("To DO: implement hasNext() of IteratorFilter!");
+        if (next != null) return true;
+
+        while (src.hasNext()) {
+            T item = src.next();
+
+            if (p.test(item)) {
+                this.next = item;
+                return true;
+            }
+        }
+        return false;
     }
 
     @Override
     public T next() {
-        throw new UnsupportedOperationException("To DO: implement next() of IteratorFilter!");
+        if (!hasNext()) throw new NoSuchElementException();
+
+        T aux = next;
+        next = null;
+        return aux;
     }
 }
