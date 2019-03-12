@@ -1,14 +1,9 @@
 package org.isel.mpd.util.req;
 
 import org.isel.mpd.util.iterators.IteratorInputStream;
-import org.isel.mpd.util.queries.Supplier;
 
-import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.function.Supplier;
 
 public abstract class AbstractRequest implements Request {
 

@@ -1,8 +1,7 @@
 package org.isel.mpd.util.iterators;
 
-import org.isel.mpd.util.queries.Function;
-
 import java.util.Iterator;
+import java.util.function.Function;
 
 public class IteratorMap<T, R> implements Iterator<R> {
     final Iterator<T> src;

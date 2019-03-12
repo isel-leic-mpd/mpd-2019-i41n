@@ -16,7 +16,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         Iterable<Integer> seq = LazyQueries.limit(iterate(1, n -> n + 1), 4);
-        for (int n : seq) System.out.println(n);
+        seq.forEach(System.out::println);
         LazyQueries.toArray(filter(map(seq, App::m), App::f));
         System.out.println();
         LazyQueries.toArray(map(filter(seq, App::f), App::m));

@@ -6,6 +6,9 @@ import org.isel.mpd.util.iterators.IteratorMap;
 
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.function.Function;
+import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 /**
  * V5 -- Lazy implementations based on sequences (i.e. Iterable)

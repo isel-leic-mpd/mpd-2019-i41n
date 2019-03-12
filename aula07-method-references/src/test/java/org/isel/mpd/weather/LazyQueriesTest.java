@@ -49,7 +49,7 @@ public class LazyQueriesTest {
     public void pastWeatherMaxTemperatureInFeb2019() {
         Iterable<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
-        Iterable<Integer> temps = map(infos, wi -> wi.getTempC());
+        Iterable<Integer> temps = map(infos, WeatherInfo::getTempC);
         int max = max(temps);
         assertEquals(19, max);
     }

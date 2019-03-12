@@ -1,9 +1,8 @@
 package org.isel.mpd.util.iterators;
 
-import org.isel.mpd.util.queries.Predicate;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.util.function.Predicate;
 
 public class IteratorFilter<T> implements Iterator<T> {
     private T next = null;

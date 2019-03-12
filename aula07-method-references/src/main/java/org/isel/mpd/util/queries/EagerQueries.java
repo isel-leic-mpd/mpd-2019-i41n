@@ -3,6 +3,8 @@ package org.isel.mpd.util.queries;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.function.Function;
+import java.util.function.Predicate;
 
 /**
  * V4 -- Generic Methods
