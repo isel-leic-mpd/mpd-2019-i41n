@@ -1,5 +1,6 @@
 package org.isel.mpd.weather;
 
+import com.google.gson.Gson;
 import org.isel.mpd.util.queries.LazyQueries;
 import org.isel.mpd.util.req.MockRequest;
 import org.isel.mpd.weather.dto.WeatherInfo;
@@ -29,12 +30,11 @@ public class LazyQueriesTest {
 
     @Test
     public void pastWeatherNumberOfSunnyDaysInFeb2019() {
-        Iterable<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
+        Iterable<WeatherInfo> infos = new WeatherRestfullApi()
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
         assertEquals(
             8,
-            count(LazyQueries.<WeatherInfo>filter(infos, wi -> wi.getDesc().equals("Sunny"))));
-            // <=> Queries.filter(infos ... ) // T é INFERIDO a partir de infos.
+            count(filter(infos, wi -> wi.getDesc().equals("Sunny"))));
     }
 
     @Test

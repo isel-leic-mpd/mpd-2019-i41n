@@ -10,7 +10,7 @@ import static org.isel.mpd.util.queries.EagerQueries.filter;
 import static org.isel.mpd.util.queries.EagerQueries.map;
 import static org.isel.mpd.util.queries.EagerQueries.skip;
 
-public class WeatherWebApi {
+public class WeatherWebApi implements WeatherApi{
     final String HOST = "http://api.worldweatheronline.com/premium/v1/";
     final String PATH_PAST_WEATHER = "past-weather.ashx?q=%s,%s&date=%s&enddate=%s&tp=24&format=csv&key=%s";
     final String PATH_SEARCH = "search.ashx?query=%s&format=tab&key=%s";

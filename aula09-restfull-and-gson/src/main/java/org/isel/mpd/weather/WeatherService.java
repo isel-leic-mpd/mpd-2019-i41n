@@ -6,15 +6,13 @@ import org.isel.mpd.weather.dto.LocationInfo;
 import org.isel.mpd.weather.dto.WeatherInfo;
 import org.isel.mpd.weather.model.Location;
 
-import java.time.LocalDate;
-
 import static java.time.LocalDate.now;
 
 public class WeatherService {
 
-    final WeatherWebApi api;
+    final WeatherApi api;
 
-    public WeatherService(WeatherWebApi api) {
+    public WeatherService(WeatherApi api) {
         this.api = api;
     }
 
