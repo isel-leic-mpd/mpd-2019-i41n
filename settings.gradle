@@ -5,5 +5,6 @@ include 'aula05-queries-generics'
 include 'aula06-queries-lazy'
 include 'aula07-method-references'
 include 'aula08-domain-vs-dto'
+include 'aula09-restfull-and-gson'
 
 rootProject.name = 'mpd-2019-aulas'
