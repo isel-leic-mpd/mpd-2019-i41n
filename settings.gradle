@@ -7,5 +7,6 @@ include 'aula07-method-references'
 include 'aula08-domain-vs-dto'
 include 'aula09-restfull-and-gson'
 include 'aula12-compose-andThen'
+include 'aula15-compose-and-default-methods'
 
 rootProject.name = 'mpd-2019-aulas'

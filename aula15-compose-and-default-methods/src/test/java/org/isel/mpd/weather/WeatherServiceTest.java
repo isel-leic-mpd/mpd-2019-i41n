@@ -1,5 +1,6 @@
 package org.isel.mpd.weather;
 
+import org.isel.mpd.util.queries.Cmposable;
 import org.isel.mpd.util.req.HttpRequest;
 import org.isel.mpd.util.req.Request;
 import org.isel.mpd.weather.dto.WeatherInfo;
@@ -59,8 +60,13 @@ public class WeatherServiceTest {
 
         WeatherInfo maxDescAndTemp = max(
             oportoWeather,
-            comparing(WeatherInfo::getDesc));
-        assertEquals(22, maxDescAndTemp.getTempC());
+            comparing(WeatherInfo::getDesc).andThen(WeatherInfo::getTempC));
+        assertEquals(24, maxDescAndTemp.getTempC());
+
+        Cmposable<WeatherInfo> cmp = comparing(WeatherInfo::getDesc)
+            .andThen(WeatherInfo::getTempC)
+            .andThen(WeatherInfo::getPrecipMM)
+            .andThen(WeatherInfo::getDate);
 
     }
 }
