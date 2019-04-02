@@ -1,5 +1,6 @@
 package org.isel.mpd.weather;
 
+import org.isel.mpd.util.StreamUtil;
 import org.isel.mpd.util.req.HttpRequest;
 import org.isel.mpd.util.req.Request;
 import org.isel.mpd.weather.dto.WeatherInfo;
@@ -78,15 +79,20 @@ public class WeatherServiceTest {
     public void testCollapseTemperatures() {
         WeatherService service = new WeatherService(new WeatherRestfullApi());
         Stream<Location> locals = service.search("oporto");
-        Stream<WeatherInfo> ws = locals
+        Stream<Integer> temps = locals
             .skip(1)
             .findFirst()
             .get()
-            .getPast30daysWeather();
-        String temps = ws
-            .map(WeatherInfo::getTempC)
+            .getPast30daysWeather()
+            .map(WeatherInfo::getTempC);
+
+        temps = StreamUtil.collapse(temps);
+
+        String res = temps
             .map(Object::toString)
             .collect(Collectors.joining(","));
-        System.out.println(temps);
+
+        String expected = "16,13,14,12,11,14,19,16,18,15,14,17,21,19,14,17,19,21,22,20,22,23,21,24,25,21,20,18";
+        assertEquals(expected, res);
     }
 }
