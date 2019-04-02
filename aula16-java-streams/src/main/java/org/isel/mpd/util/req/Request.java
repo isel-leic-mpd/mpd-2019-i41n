@@ -1,8 +1,9 @@
 package org.isel.mpd.util.req;
 
-import java.util.List;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 public interface Request {
 
-    public Iterable<String> getLines(String path);
+    public Stream<String> getLines(String path);
 }

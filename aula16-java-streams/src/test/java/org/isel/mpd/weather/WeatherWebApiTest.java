@@ -6,6 +6,7 @@ import org.isel.mpd.weather.dto.WeatherInfo;
 import org.junit.Test;
 
 import java.util.Iterator;
+import java.util.stream.Stream;
 
 import static java.time.LocalDate.parse;
 import static junit.framework.Assert.*;
@@ -14,7 +15,7 @@ import static junit.framework.Assert.*;
 public class WeatherWebApiTest {
     @Test
     public void pastWeather() {
-        Iterable<WeatherInfo> infos = new WeatherWebApi(new MockRequest())
+        Stream<WeatherInfo> infos = new WeatherRestfullApi(new MockRequest())
                 .pastWeather(37.017,-7.933, parse("2019-02-01"), parse("2019-02-28"));
         Iterator<WeatherInfo> iter = infos.iterator();
         assertNotNull(infos);
@@ -28,7 +29,7 @@ public class WeatherWebApiTest {
 
     @Test
     public void search() {
-        Iterable<LocationInfo> infos = new WeatherWebApi(new MockRequest())
+        Stream<LocationInfo> infos = new WeatherRestfullApi(new MockRequest())
                 .search("Oporto");
         Iterator<LocationInfo> iter = infos.iterator();
         assertNotNull(infos);
