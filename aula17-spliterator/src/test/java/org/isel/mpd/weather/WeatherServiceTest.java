@@ -1,5 +1,6 @@
 package org.isel.mpd.weather;
 
+import org.isel.mpd.util.StreamUtil;
 import org.isel.mpd.util.req.HttpRequest;
 import org.isel.mpd.util.req.Request;
 import org.isel.mpd.weather.dto.WeatherInfo;
@@ -8,6 +9,7 @@ import org.junit.Test;
 
 import java.util.Comparator;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static java.util.Comparator.comparing;
@@ -71,5 +73,26 @@ public class WeatherServiceTest {
             .thenComparing(WeatherInfo::getTempC)
             .thenComparing(WeatherInfo::getPrecipMM)
             .thenComparing(WeatherInfo::getDate);
+    }
+
+    @Test
+    public void testCollapseTemperatures() {
+        WeatherService service = new WeatherService(new WeatherRestfullApi());
+        Stream<Location> locals = service.search("oporto");
+        Stream<Integer> temps = locals
+            .skip(1)
+            .findFirst()
+            .get()
+            .getPast30daysWeather()
+            .map(WeatherInfo::getTempC);
+
+        temps = StreamUtil.collapse(temps);
+
+        String res = temps
+            .map(Object::toString)
+            .collect(Collectors.joining(","));
+
+        String expected = "16,13,14,12,11,14,19,16,18,15,14,17,21,19,14,17,19,21,22,20,22,23,21,24,25,21,20,18";
+        assertEquals(expected, res);
     }
 }
