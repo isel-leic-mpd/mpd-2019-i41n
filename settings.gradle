@@ -10,5 +10,6 @@ include 'aula12-compose-andThen'
 include 'aula15-compose-and-default-methods'
 include 'aula16-java-streams'
 include 'aula17-spliterator'
+include 'aula21-sequence'
 
 rootProject.name = 'mpd-2019-aulas'

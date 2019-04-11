@@ -1,4 +1,4 @@
-package org.isel.util;
+package org.isel.mpd.util;
 
 import org.isel.mpd.weather.WeatherRestfullApi;
 import org.isel.mpd.weather.WeatherService;
