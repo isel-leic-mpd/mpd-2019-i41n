@@ -6,6 +6,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 public class SequenceTest {
     @Test
@@ -15,6 +16,7 @@ public class SequenceTest {
         words
             .map(String::length)
             .forEach(l -> assertEquals(expected.next(), l));
+        assertFalse(expected.hasNext());
     }
 
 }

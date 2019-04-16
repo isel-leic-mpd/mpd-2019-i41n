@@ -1,0 +1,156 @@
+{
+  "search_api": {
+    "result": [
+      {
+        "areaName": [
+          {
+            "value": "Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "Spain"
+          }
+        ],
+        "region": [
+          {
+            "value": "Galicia"
+          }
+        ],
+        "latitude": "42.383",
+        "longitude": "-7.100",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=42.3833,-7.1"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "Portugal"
+          }
+        ],
+        "region": [
+          {
+            "value": "Porto"
+          }
+        ],
+        "latitude": "41.150",
+        "longitude": "-8.617",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=41.15,-8.6167"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "South Africa"
+          }
+        ],
+        "region": [
+          {
+            "value": "Limpopo"
+          }
+        ],
+        "latitude": "-22.667",
+        "longitude": "29.633",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=-22.6667,29.6333"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "El Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "Mexico"
+          }
+        ],
+        "region": [
+          {
+            "value": "Tamaulipas"
+          }
+        ],
+        "latitude": "23.266",
+        "longitude": "-98.768",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=23.2658,-98.7675"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Puerto Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "Bolivia"
+          }
+        ],
+        "region": [
+          {
+            "value": "Pando"
+          }
+        ],
+        "latitude": "-9.933",
+        "longitude": "-66.417",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=-9.9333,-66.4167"
+          }
+        ]
+      },
+      {
+        "areaName": [
+          {
+            "value": "Oporto"
+          }
+        ],
+        "country": [
+          {
+            "value": "Cuba"
+          }
+        ],
+        "region": [
+          {
+            "value": "Santiago de Cuba"
+          }
+        ],
+        "latitude": "20.233",
+        "longitude": "-76.167",
+        "population": "0",
+        "weatherUrl": [
+          {
+            "value": "http://api-cdn.worldweatheronline.com/v2/weather.aspx?q=20.2333,-76.1667"
+          }
+        ]
+      }
+    ]
+  }
+}
