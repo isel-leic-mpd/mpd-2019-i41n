@@ -12,5 +12,7 @@ include 'aula16-java-streams'
 include 'aula17-spliterator'
 include 'aula21-sequence'
 include 'aula22-reduce-collect'
+include 'aula24-intro-async-threads'
+include 'aula25-intro-async-tasks'
 
 rootProject.name = 'mpd-2019-aulas'
