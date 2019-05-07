@@ -32,10 +32,10 @@ public class CfsTest {
         assertEquals(4745, count.join().intValue());
     }
 
-    @Test public void testCf5ForThreeFiles() throws IOException {
-        Cf5
-            .countLines(METAMORPHOSIS, DISCOURSE_ON_THE_METHOD, DIVINE_COMEDY)
-            .thenAccept(count -> assertEquals(10423, count.intValue()));
-
+    @Test public void testCf4ForTwoFiles() throws IOException {
+        Cf4
+            .countLines(METAMORPHOSIS, DISCOURSE_ON_THE_METHOD) // CF<Integer>
+            .thenAccept(n -> assertEquals(4745, n.intValue()))  // CF<Void>
+            .join();
     }
 }

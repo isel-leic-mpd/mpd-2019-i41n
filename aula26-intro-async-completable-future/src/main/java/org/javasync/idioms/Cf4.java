@@ -15,7 +15,7 @@ public class Cf4 {
         CompletableFuture<Integer> right = new CompletableFuture<>();
         readFile(p1, left);
         readFile(p2, right);
-        return sum; // TPC + teste unitário
+        return left.thenCombine(right, (l, r) -> l + r);
     }
 
     public static void readFile(

@@ -16,5 +16,6 @@ include 'aula24-intro-async-threads'
 include 'aula25-intro-async-tasks'
 include 'aula26-intro-async-completable-future'
 include 'aula27-composing-async'
+include 'aula28-composing-async'
 
 rootProject.name = 'mpd-2019-aulas'
