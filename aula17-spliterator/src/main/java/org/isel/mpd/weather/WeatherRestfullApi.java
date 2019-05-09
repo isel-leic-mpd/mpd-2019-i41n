@@ -20,7 +20,7 @@ public class WeatherRestfullApi implements WeatherApi{
     final String HOST = "http://api.worldweatheronline.com/premium/v1/";
     final String PATH_PAST_WEATHER = "past-weather.ashx?q=%s,%s&date=%s&enddate=%s&tp=24&format=json&key=%s";
     final String PATH_SEARCH = "search.ashx?query=%s&format=json&key=%s";
-    final String WEATHER_KEY = "10a7e54b547c4c7c870162131192102";
+    final String WEATHER_KEY = "da5f2b8cc0a84eef8c6173655190905";
 
     private final Request req;
     private final Gson gson;
