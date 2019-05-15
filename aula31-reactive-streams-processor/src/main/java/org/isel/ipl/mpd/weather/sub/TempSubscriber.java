@@ -21,7 +21,7 @@ public class TempSubscriber implements Subscriber<TempInfo> {
     }
     @Override
     public void onError( Throwable t ) {
-        System.err.println(t.getMessage());
+        System.out.println(t.getMessage());
     }
     @Override
     public void onComplete() {
