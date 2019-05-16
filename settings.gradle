@@ -20,5 +20,6 @@ include 'aula28-composing-async'
 include 'aula29-composing-monads'
 include 'aula30-reactive-streams'
 include 'aula31-reactive-streams-processor'
+include 'aula32-rx-java'
 
 rootProject.name = 'mpd-2019-aulas'
