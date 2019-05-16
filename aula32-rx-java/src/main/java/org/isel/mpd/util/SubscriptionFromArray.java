@@ -21,7 +21,8 @@ public class SubscriptionFromArray<T> implements Subscription {
     @Override
     public void request(long n) {
         executor.submit(() -> {
-            for (; idx < n && idx < src.length; idx++) {
+            long count = n;
+            for (; count > 0 && idx < src.length; idx++, count--) {
                 try{
                     sub.onNext(src[idx]);
                 } catch(Throwable err) {
