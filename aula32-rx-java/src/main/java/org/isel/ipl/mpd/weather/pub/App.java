@@ -8,12 +8,13 @@ import java.util.concurrent.Flow.*;
 public class App {
 
     public static void main( String[] args ) {
-        getTemperatures( "New York" ).subscribe( new TempSubscriber() );
+        getTemperatures( "New York" )
+            .subscribe( new TempSubscriber() );
 
         // getCelsiusTemperatures( "New York" ).subscribe( new TempSubscriber() );
 
         Publishers
-            .map(getTemperatures( "New York"), App::fromFtoCelsius)
+            .map(getTemperatures( "London"), App::fromFtoCelsius)
             .subscribe( new TempSubscriber() );
     }
 

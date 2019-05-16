@@ -10,8 +10,8 @@ public class TempInfo {
         this.temp = temp;
     }
     public static TempInfo fetch(String town) {
-        if (random.nextInt(10) == 0)
-            throw new RuntimeException("Error!");
+        // if (random.nextInt(10) == 0)
+        //    throw new RuntimeException("Error!");
         return new TempInfo(town, random.nextInt(100));
     }
     @Override
