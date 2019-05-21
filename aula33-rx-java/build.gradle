@@ -22,6 +22,7 @@ repositories {
 
 dependencies {
     // This dependency is found on compile classpath of this component and consumers.
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
     compile 'com.github.javasync:AsyncFileRw:1.1.2'
     compile 'org.asynchttpclient:async-http-client:2.4.9'
     compile 'com.google.code.gson:gson:2.8.5'

@@ -35,8 +35,8 @@ public class PublishersTest {
         Integer[] src = {5, 34, 532, 65, 6, 56, 365, 34, 1};
         Integer[] expected = {34, 532, 6, 56, 34};
         Publisher<Integer> actual = filter(of(src), nr -> nr % 2 == 0);
-        assertPublisherInBulk(expected, actual);
-        // assertPublisherIndividually(expected, actual);
+        // assertPublisherInBulk(expected, actual);
+        assertPublisherIndividually(expected, actual);
     }
 
     static <T> void assertPublisherInBulk(T[] expected, Publisher<T> actual) {
@@ -62,6 +62,7 @@ public class PublishersTest {
 
     static <T> void assertPublisherIndividually(T[] expected, Publisher<T> actual) {
         CompletableFuture<Void> cf  = new CompletableFuture<>();
+        int [] count = {0};
         actual
             .subscribe(new Subscriber<T>() {
                 Subscription sign;
@@ -79,9 +80,11 @@ public class PublishersTest {
                 }
                 public void onComplete() {
                     cf.complete(null);
+                    count[0] = i;
                 }
             });
         cf.join();
+        assertEquals(expected.length, count[0]);
     }
 
 }
