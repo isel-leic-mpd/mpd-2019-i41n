@@ -21,6 +21,7 @@ include 'aula29-composing-monads'
 include 'aula30-reactive-streams'
 include 'aula31-reactive-streams-processor'
 include 'aula32-reactive-streams-executor'
+include 'aula33-rx-java'
 include 'aula34-reactive-model'
 
 rootProject.name = 'mpd-2019-aulas'
