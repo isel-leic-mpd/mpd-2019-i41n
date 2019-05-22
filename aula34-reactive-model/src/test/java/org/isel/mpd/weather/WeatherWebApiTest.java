@@ -1,6 +1,5 @@
 package org.isel.mpd.weather;
 
-import io.reactivex.Maybe;
 import io.reactivex.Observable;
 import org.junit.Test;
 
@@ -17,7 +16,7 @@ import static junit.framework.Assert.assertEquals;
 public class WeatherWebApiTest {
     @Test
     public void pastWeather() throws IOException {
-        CompletableFuture<Stream<WeatherInfo>> infos = new WeatherRestfullApi()
+        CompletableFuture<Stream<WeatherInfo>> infos = new WeatherWebApi()
             .pastWeather(37.017, -7.933, parse("2019-02-01"), parse("2019-03-28"));
         WeatherInfo wi = infos.join().findFirst().get();
         assertEquals(parse("2019-02-01"), wi.getDate());
@@ -28,7 +27,7 @@ public class WeatherWebApiTest {
 
     @Test
     public void pastWeatherToObservable() throws IOException {
-        CompletableFuture<Stream<WeatherInfo>> infos = new WeatherRestfullApi()
+        CompletableFuture<Stream<WeatherInfo>> infos = new WeatherWebApi()
             .pastWeather(37.017, -7.933, parse("2019-02-01"), parse("2019-03-28"));
         Observable<WeatherInfo> wis = Observable
             .fromFuture(infos)

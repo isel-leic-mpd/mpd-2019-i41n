@@ -12,7 +12,7 @@ import java.time.LocalDate;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Stream;
 
-public class WeatherRestfullApi implements AutoCloseable{
+public class WeatherWebApi implements AutoCloseable{
 
     final String HOST = "http://api.worldweatheronline.com/premium/v1/";
     final String PATH_PAST_WEATHER = "past-weather.ashx?q=%s,%s&date=%s&enddate=%s&tp=24&format=json&key=%s";
