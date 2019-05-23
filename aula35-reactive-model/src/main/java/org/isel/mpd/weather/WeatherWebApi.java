@@ -22,7 +22,7 @@ public class WeatherWebApi implements AutoCloseable{
     private final Gson gson = new Gson();
     private final AsyncHttpClient ahc = Dsl.asyncHttpClient();
 
-    public CompletableFuture<Stream<WeatherInfo>> pastWeather(double lat, double log, LocalDate from, LocalDate to) throws IOException {
+    public CompletableFuture<Stream<WeatherInfo>> pastWeather(double lat, double log, LocalDate from, LocalDate to) {
         String path = HOST + String.format(PATH_PAST_WEATHER, lat, log, from, to, WEATHER_KEY);
         System.out.println(path);
         return ahc
