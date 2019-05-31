@@ -24,5 +24,6 @@ include 'aula32-reactive-streams-executor'
 include 'aula33-rx-java'
 include 'aula34-reactive-model'
 include 'aula35-reactive-model'
+include 'aula38-web-app-VertX-async'
 
 rootProject.name = 'mpd-2019-aulas'

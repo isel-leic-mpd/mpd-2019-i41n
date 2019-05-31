@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    compile 'org.asynchttpclient:async-http-client:2.4.9'
+    compile 'com.google.code.gson:gson:2.8.5'
+    compile 'io.vertx:vertx-web:3.7.0'
+    compile 'com.github.xmlet:htmlflow:3.2'
+    
+    compile project(':aula35-reactive-model')
+    testCompile 'junit:junit:4.8.1'
+}
